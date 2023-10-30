@@ -1,0 +1,16 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M70 0H0V70H70V0Z" fill="#121212"/>
+<path d="M35 66.0625C52.1553 66.0625 66.0625 52.1553 66.0625 35C66.0625 17.8447 52.1553 3.9375 35 3.9375C17.8447 3.9375 3.9375 17.8447 3.9375 35C3.9375 52.1553 17.8447 66.0625 35 66.0625Z" stroke="white" stroke-width="0.875"/>
+<mask id="mask0_69_25407" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="64" height="64">
+<path d="M35 66.0625C52.1553 66.0625 66.0625 52.1553 66.0625 35C66.0625 17.8447 52.1553 3.9375 35 3.9375C17.8447 3.9375 3.9375 17.8447 3.9375 35C3.9375 52.1553 17.8447 66.0625 35 66.0625Z" fill="#0057FF" stroke="white" stroke-width="0.875"/>
+</mask>
+<g mask="url(#mask0_69_25407)">
+<path d="M39.0548 28.7937H31.2832L35 21.0221L39.0548 28.7937Z" fill="white"/>
+<path d="M26.3145 72.5851V37.873L35.0001 21.2893L43.6858 37.873V72.5851H26.3145Z" stroke="white" stroke-width="0.875"/>
+<path d="M38.5616 38.3792H31.4395V66.0626H38.5616V38.3792Z" fill="white" stroke="white" stroke-width="0.875"/>
+<path opacity="0.21" d="M44.0192 5.17493H29.8848V19.3093H44.0192V5.17493Z" fill="#575757"/>
+<path opacity="0.21" d="M57.75 19.25H43.75V33.25H57.75V19.25Z" fill="#B5B5B5"/>
+<path opacity="0.21" d="M29.9938 19.1162H15.8594V33.2506H29.9938V19.1162Z" fill="#616161"/>
+<path opacity="0.03" d="M44.0192 -8.45471H29.8848V5.67969H44.0192V-8.45471Z" fill="#AEAEAE"/>
+</g>
+</svg>

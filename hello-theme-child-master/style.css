@@ -1,0 +1,101 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+#sm-16541647443304756-6 span.dashicons {
+    font-family: "iconfont" !important;
+    font-size: 24px;
+    color: #91b1ff;
+    line-height: 24px;
+    -o-transition: all ease .3s;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+span.dashicons.fas.fa-headset:before {content: "\ecaf";}
+
+.wallet-ul-list ul {padding-left: 30px;}
+.wallet-banner-section {background-size: 100% 100% !important;}
+
+video.video-stream.html5-main-video {height: 592px !important; width: 592px !important;}
+iframe#widget2, .wallet-top-video, .wallet-top-video > div {width: 592px !important;  height: 592px !important;}
+
+.solana-list ul.elementor-icon-list-items li:first-child .elementor-icon-list-text {font-weight: bold !important;}
+
+.color-blue-link, .color-blue-link:hover{color: #205FEC; text-decoration: underline !important;}
+.solana-ul-list ul {padding-left: 30px;}
+.solana-ul-list ul li {padding-bottom: 20px;}
+
+.solana-price-info label {
+    font-family: 'HarmonyOS Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;padding-bottom: 8px;
+}
+.solana-price-info .price, .solana-price-info h3 {
+    font-family: 'HarmonyOS Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000 !important;}
+
+.solana-price-info .top-info .price, .solana-price-info h3 {font-size: 28px; line-height: 24px;}
+.solana-price-info .top-info, .solana-price-info .price-block {border-bottom: 1px solid #D9D9D9;  padding-bottom: 20px;}
+.solana-price-info h3 {margin: 25px 0px 30px;}
+.solana-price-info .box-wrap {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
+.img-height, .img-height > div, .img-height img {height: 100%;}
+
+.solana-price-info .green {color: #009D10;}
+.top-info .block {padding-bottom: 20px;}
+iframe#solanchartradingview {height: 361px !important; width: 100% !important;}
+
+
+
+
+
+
+@media screen and (max-width:1280px){
+	iframe#widget2, .wallet-top-video, .wallet-top-video > div {width: 550px !important;height: 590px !important;}
+	
+}
+
+
+@media screen and (max-width:1130px){
+	iframe#widget2, .wallet-top-video, .wallet-top-video > div {width: 470px !important; height: 590px !important;}
+	
+}
+
+@media screen and (max-width:1024px){
+	iframe#widget2, .wallet-top-video, .wallet-top-video > div {margin: 0 auto;}
+	.wallet-banner-section {background-size: cover !important;}
+	.solana-price-info .top-info .price, .solana-price-info h3 {font-size: 24px; line-height: 24px;}
+	.solana-price-info .price, .solana-price-info h3 {font-size: 14px;}
+}
+
+@media screen and (max-width:767px){
+	.img-height, .img-height > div, .img-height img {height: auto;}
+}
+
+
+@media screen and (max-width:600px){
+	iframe#widget2, .wallet-top-video, .wallet-top-video > div {width: 320px !important;  height: 393px !important;}
+}
+
+@media screen and (max-width:480px){
+	iframe#widget2, .wallet-top-video, .wallet-top-video>div {width: 260px!important; height: 393px!important;}
+}

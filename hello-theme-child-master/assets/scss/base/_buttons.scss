@@ -1,0 +1,40 @@
+/* BUTTON CSS START HERE */
+.my-button {
+    background: $primary-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $white;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 1;
+    border-radius: 8.74783px;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    overflow: hidden;
+
+    @media(max-width: 767px) {
+        padding: 12px 40px;
+    }
+
+    &:hover,
+    &.active {
+        color: $white;
+        background: $primary-color;
+
+        &.black-btn {
+            background: $secondary-color;
+        }
+    }
+
+    &.black-btn {
+        background: $primary-color;
+    }
+}
+
+/* BUTTON CSS END'S HERE */
